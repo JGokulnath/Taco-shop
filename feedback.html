@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>feedback</title>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <!--Stylesheet-->
+
+    <link rel="stylesheet" href="feedback.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">
+            <img
+              class="br-img"
+              src="images/brandimg.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            <b
+              style="
+                color: red;
+                font-weight: 900;
+                font-family: 'Gochi Hand', cursive;
+                font-size: 3.3rem;
+              "
+              >TacHoSS</b
+            >
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="welcome.html"
+                  ><b>Home</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Rewards.html"><b>Rewards</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><b>Feedback</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>Contact Us</b></a>
+              </li>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section id="feedback">
+      <main class="form-signin">
+        <form onsubmit="JS_to_JSON(event)" id="form">
+          <div class="form-floating">
+            <center><h2>Feedback Form</h2></center>
+          </div>
+
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Name"
+              name="Name"
+            />
+            <label for="name">Name</label>
+          </div>
+
+          <div class="form-floating">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Email"
+            />
+            <label for="email">Email address</label>
+          </div>
+
+          <div class="form-floating">
+            <input
+              type="number"
+              class="form-control"
+              id="phone"
+              name="phone"
+              placeholder="Phone Number"
+            />
+            <label for="phone">Phone Number</label>
+            <p id="phoneMsg"></p>
+          </div>
+
+          <div class="form-floating">
+            <textarea
+              name="comment"
+              id="comment"
+              class="form-control"
+              cols="30"
+              rows="10"
+              placeholder="Comments"
+            ></textarea>
+            <label for="comment">Comments</label>
+          </div>
+
+          <button class="w-100 btn btn-lg btn-success" type="submit">
+            Submit
+          </button>
+        </form>
+      </main>
+    </section>
+  </body>
+</html>

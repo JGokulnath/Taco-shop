@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+#title{
+    background-color:#ebbd17 ;
+    color: #ffffff;
+}
+h1 {
+
+    font-weight: 600;
+    size: 3rem;
+    line-height: 1.5;
+}
+h2 {
+    font-family: 'Gochi Hand', cursive;
+    color: #f70505;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1;
+    padding: 3rem 1rem 0rem 1rem;
+}
+h3 {
+    font-size: 3.5rem;
+    font-family: 'Gochi Hand', cursive;
+    font-weight: 900;
+    line-height: 1;
+    padding: 3rem 1rem 0rem 5rem;
+}
+h5{
+    color: black;
+    font-size: smaller;
+}
+p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+}
+.container-fluid
+{
+    padding: 3% 15% 2%;
+}
+.br-img{
+    rotate: 65deg;
+    transform: scale(3);
+}
+ /* navbar style */
+ .navbar {
+    padding: 0 0 1rem 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:"Montserract-light";
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.heading{
+    background-color: #ebbd17;
+    align-items: center;
+    text-align: center;
+}
+.trophy{
+    width : 70%;
+    position: relative;
+    left: 4%;
+    padding-left: 4rem;
+    -webkit-animation: shake .4s cubic-bezier(1, 0.62, 0.97, -0.8) .2s infinite alternate;
+}
+@-webkit-keyframes shake{
+    0%{
+        -webkit-transform: rotate(4deg);
+        
+    }
+    50%{
+        -webkit-transform: rotate(-4deg);
+    }
+}
+.rewardinfo{
+    text-align: center;
+    align-items: center;
+}
+.rewardsimg{
+    padding-top: 2rem;
+    width: 60%;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.download1{
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ width: 60%;
+}
+.download2{  
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ width: 60%; 
+} 
+
+#footer{
+    align-items: center;
+    text-align: center;
+    background-color:#ebbd17;
+    padding: 1rem;
+  }

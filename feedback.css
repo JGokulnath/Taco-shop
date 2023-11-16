@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+#title {
+  background-color: #ebbd17;
+  color: #ffffff;
+}
+h1 {
+  font-weight: 600;
+  size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Gochi Hand", cursive;
+  color: #f70505;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1;
+  padding: 3rem 1rem 0rem 1rem;
+}
+h3 {
+  font-size: 3.5rem;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 900;
+  line-height: 1;
+  padding: 3rem 1rem 0rem 5rem;
+}
+h5 {
+  color: black;
+  font-size: smaller;
+}
+p {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 15% 2%;
+}
+.br-img {
+  rotate: 65deg;
+  transform: scale(3);
+}
+/* navbar style */
+.navbar {
+  padding: 0 0 1rem 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserract-light";
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+/*form */
+#feedback {
+  align-items: center;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+main {
+  margin: 2% auto;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-floating {
+  margin: 5% auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+p {
+  color: red;
+  font-size: smaller;
+  margin-top: 1.5%;
+}
+
+.fa-eye {
+  margin-left: 90%;
+  margin-top: -35px;
+  cursor: pointer;
+}
+
+.fa-eye-slash {
+  margin-left: 90%;
+  margin-top: -35px;
+  cursor: pointer;
+}
+
+#visible {
+  opacity: 0;
+}
+
+#col2 {
+  opacity: 0;
+}
+
+#json_content {
+  margin: auto auto;
+  width: 35%;
+}

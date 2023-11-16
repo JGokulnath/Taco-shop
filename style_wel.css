@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+#title{
+    background-color:#ebbd17 ;
+    color: #ffffff;
+}
+
+h1 {
+
+    font-weight: 600;
+    size: 3rem;
+    line-height: 1.5;
+}
+h2 {
+    font-family: 'Gochi Hand', cursive;
+    color: #f70505;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1;
+    padding: 3rem 1rem 0rem 1rem;
+}
+h3 {
+    font-weight: 900;
+}
+h5{
+    color: black;
+    font-size: smaller;
+}
+p {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+.br-img{
+    rotate: 65deg;
+    transform: scale(3);
+}
+ /* navbar style */
+ .navbar {
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:"Montserract-light";
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.title-image{
+    width : 80%;
+    position: relative;
+    left: 4%;
+    -webkit-animation: shake .4s cubic-bezier(1, 0.62, 0.97, -0.8) .2s infinite alternate;
+}
+
+@-webkit-keyframes shake{
+    0%{
+        -webkit-transform: rotate(4deg);
+        
+    }
+    50%{
+        -webkit-transform: rotate(-4deg);
+    }
+}
+.carousel-inner{
+    text-align: center;
+}
+.Menutitle{
+    font-family: 'Gochi Hand', cursive;
+    color: red;
+    text-align: center;
+    font-weight: 900;
+    font-size: 5rem;
+}
+.Menu_img{
+  width: 60%;
+}
+#content{
+    background-color:#ebbd17 ;
+}
+.Content_sec{
+    align-items: center;
+    text-align: center;
+}
+
+.social-text {
+    padding: 0.7rem 0;
+    font-size: 1rem;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .social-icon {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #2380e9;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #012d60;
+    border-color:#d88d03;
+  }
+
+  #footer{
+    align-items: center;
+    text-align: center;
+    background-color:#ebbd17;
+    padding: 1rem;
+  }
